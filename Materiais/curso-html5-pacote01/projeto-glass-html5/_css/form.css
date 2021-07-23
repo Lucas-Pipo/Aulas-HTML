@@ -12,6 +12,8 @@ input, textarea{
     background-color: rgba(255, 255, 255, .8);
 }
 
+
+
 input:hover{
     background-color: #dddddd;
 }
@@ -52,6 +54,11 @@ input#cTot{
 input#cBtn{
     position: relative;
     left: 400px;
+}
+
+label#cMsg{
+    position: relative;
+    top: 32px;
 }
 
 legend{
