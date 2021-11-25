@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pet1';
+    src: url('../fontes/petlove/PetLove.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Pet2';
+    src: url('../fontes/really_petshop/Really\ Petshop.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --fonte-pet: 'Pet1', cursive;
+    --fonte-texto:'Pet2', cursive;
+}
+
+*{
+    margin: 0px;
+    
+}
+
+header{
+    font-family: var(--fonte-pet);
+    font-size: 3.5em;
+    text-align: center;
+    background-color: #f9e125;
+    padding: 30px;
+    display: block;
+    text-shadow: 8px 8px 8px 8px black;
+}
+
+main{
+    background-color: #f8efaa;
+}
+
+div{
+    display: inline-block;
+    width: 46%;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 4%;
+}
+
+h2{
+    font-size: 1.5em;
+    font-family: var(--fonte-texto);
+}
+
+button{
+    background-color: orange;
+    font-size: 2em;
+    border-radius: 10px;
+    color: white;
+    font-family: var(--fonte-texto);
+    margin-top: 20%;
+}
+
+img{
+    box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.300);
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    min-width: 385px;
+}
+
+footer{
+    background-color: #f9e125;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    font-weight: bold;
+}
+
