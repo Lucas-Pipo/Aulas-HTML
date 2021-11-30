@@ -22,48 +22,56 @@
     
 }
 
+body{
+    background-color: #f8efaa;
+}
+
 header{
     font-family: var(--fonte-pet);
     font-size: 3.5em;
     text-align: center;
     background-color: #f9e125;
     padding: 30px;
-    display: block;
-    text-shadow: 8px 8px 8px 8px black;
+
 }
 
 main{
     background-color: #f8efaa;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 div{
     display: inline-block;
     width: 46%;
+    height: 50%;
     text-align: center;
-    padding-top: 20%;
     padding-left: 4%;
+    padding-top: 20%;
 }
 
-h2{
-    font-size: 1.5em;
+h1{
     font-family: var(--fonte-texto);
+    font-size: 1.5em;
 }
 
 button{
     background-color: orange;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 10px;
     color: white;
     font-family: var(--fonte-texto);
-    margin-top: 20%;
+    margin-top: 15%;
+    padding: 5%;
 }
 
 img{
     box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.300);
     display: inline-block;
     vertical-align: top;
-    width: 49%;
-    min-width: 385px;
+    width: 46%;
+    height: 46%;
 }
 
 footer{
