@@ -28,7 +28,7 @@ body{
 
 header{
     font-family: var(--fonte-pet);
-    font-size: 3.5em;
+    font-size: 40pt;
     text-align: center;
     background-color: #f9e125;
     padding: 30px;
@@ -42,23 +42,31 @@ main{
     min-width: 300px;
 }
 
-div{
+div#imagem{
     display: inline-block;
-    width: 46%;
-    height: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    width: 45%;
+    height: 500px;
+}
+
+div#texto{
+    display: inline-block;
+    width: 45%;
+    height: 20%;
     text-align: center;
     padding-left: 4%;
-    padding-top: 20%;
 }
 
 h1{
     font-family: var(--fonte-texto);
-    font-size: 1.5em;
+    font-size: 18pt;
 }
 
 button{
     background-color: orange;
-    font-size: 1.5em;
+    font-size: 18pt;
     border-radius: 10px;
     color: white;
     font-family: var(--fonte-texto);
@@ -66,13 +74,13 @@ button{
     padding: 5%;
 }
 
-img{
+/*img{
     box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.300);
     display: inline-block;
     vertical-align: top;
     width: 46%;
     height: 46%;
-}
+}*/
 
 footer{
     background-color: #f9e125;
