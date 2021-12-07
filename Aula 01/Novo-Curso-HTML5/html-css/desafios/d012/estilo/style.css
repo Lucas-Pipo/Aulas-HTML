@@ -1,0 +1,29 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#img1{
+    background-image: url(imagens/background001.jpg);
+    width: 100vh;
+    height: 500px;
+    background-position: center center;
+    text-align: left;
+}
+
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
